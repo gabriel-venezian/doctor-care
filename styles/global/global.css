@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 400 1.6rem/1.5 "DM-Sans", sans-serif;
+  color: #212529;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
