@@ -1,0 +1,8 @@
+/* First to load */
+@import url("../styles/global/global.css");
+@import url("../styles/utilities/colors.css");
+@import url("../styles/utilities/typography.css");
+@import url("../styles/utilities/components.css");
+
+@import url("../styles/home/hero.css");
+@import url("../styles/home/services.css");

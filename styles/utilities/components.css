@@ -1,0 +1,37 @@
+.container {
+  box-sizing: border-box;
+  max-width: 120rem;
+  padding: 0 2.4rem;
+  margin: 0 auto;
+}
+
+.btn {
+  border-radius: 4rem;
+  border: none;
+  background-color: var(--brand-green);
+  text-transform: uppercase;
+  color: var(--white);
+  margin: 0 auto;
+  padding: 1.6rem 3.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  cursor: pointer;
+  height: 5.2rem;
+  width: fit-content;
+}
+
+.btn:hover {
+  background-color: var(--brand-green-hover);
+}
+
+.btn.secondary {
+  background-color: var(--white);
+  border: 1px solid var(--brand-green);
+  color: var(--brand-green);
+}
+
+.btn.secondary:hover {
+  background-color: var(--brand-green);
+  color: var(--white);
+}

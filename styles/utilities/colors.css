@@ -1,0 +1,46 @@
+:root {
+  --brand-green: #00856f;
+  --brand-green-light: #dce9e2;
+  --brand-green-light-02: #f7f9f9;
+  --brand-beige: #fffaf1;
+  --brand-green-hover: #00453a;
+
+  --gray-headline: #212529;
+  --gray-paragraph: #495057;
+  --gray-background: #ededed;
+  --white: #ffffff;
+
+  font-size: 62.5%;
+}
+
+.brand-green {
+  color: var(--brand-green);
+}
+
+.brand-green-light {
+  color: var(--brand-green-light);
+}
+
+.brand-green-light-02 {
+  color: var(--brand-green-light-02);
+}
+
+.brand-beige {
+  color: var(--brand-beige);
+}
+
+.brand-green-hover {
+  color: var(--brand-green-hover);
+}
+
+.gray-headline {
+  color: var(--gray-headline);
+}
+
+.gray-paragraph {
+  color: var(--gray-paragraph);
+}
+
+.white {
+  color: var(--white);
+}
