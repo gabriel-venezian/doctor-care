@@ -1,0 +1,44 @@
+.about-bg {
+  background-color: var(--brand-beige);
+  padding: 10rem 0;
+}
+
+.about h4 {
+  margin-bottom: 1.6rem;
+}
+
+.about h2 {
+  margin-bottom: 2.4rem;
+}
+
+.about p {
+  margin-bottom: 6rem;
+}
+
+.about img {
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+@media (min-width: 975px) {
+  .about {
+    display: grid;
+    grid-template-columns: 5fr 1fr 6fr;
+  }
+
+  .about > img {
+    grid-column: 1;
+    grid-row: 1 / -1;
+    height: 100%;
+  }
+
+  .about-information {
+    grid-column: 3;
+    margin: auto 0;
+    padding: 2rem 0;
+  }
+
+  .about-information p {
+    margin-bottom: 0;
+  }
+}
