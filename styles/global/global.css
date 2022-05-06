@@ -17,3 +17,7 @@ img {
   display: block;
   max-width: 100%;
 }
+
+img[src$=".jpg"] {
+  border-radius: 0.7rem;
+}
