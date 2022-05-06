@@ -4,5 +4,10 @@
 @import url("../styles/utilities/typography.css");
 @import url("../styles/utilities/components.css");
 
+@import url("../styles/global/header.css");
+@import url("../styles/global/footer.css");
+
 @import url("../styles/home/hero.css");
 @import url("../styles/home/services.css");
+@import url("../styles/home/about.css");
+@import url("../styles/home/contact.css");
