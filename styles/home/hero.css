@@ -27,6 +27,7 @@
   width: 26rem;
   height: auto;
   margin: 0 auto;
+  object-fit: fill;
 }
 
 .numbers {
