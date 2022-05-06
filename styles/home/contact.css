@@ -1,0 +1,80 @@
+.contact-bg {
+  padding: 10rem 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact h4 {
+  margin-bottom: 1.6rem;
+}
+
+.contact h2,
+.contact-info {
+  margin-bottom: 3.2rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.contact-mail a {
+  text-decoration: none;
+}
+
+.contact-mail a:hover {
+  font-weight: 700;
+}
+
+.contact-location,
+.contact-mail {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.contact button {
+  margin-bottom: 3.2rem;
+  margin-left: 0;
+}
+
+@media (min-width: 600px) {
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-information {
+    grid-column: 1;
+  }
+
+  .contact > img {
+    grid-column: 2;
+    grid-row: 1 / -1;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .contact button > svg {
+    display: none;
+  }
+
+  .contact button {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact button > svg {
+    display: inline-block;
+  }
+
+  .contact-information {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+}
