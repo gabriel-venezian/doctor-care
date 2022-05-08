@@ -3,7 +3,7 @@
 }
 
 .font-xxs-b {
-  font-weight: 700;
+  font: 700 1.4rem/1.3 "DM-Sans", sans-serif;
   text-transform: uppercase;
 }
 
@@ -17,8 +17,17 @@
   font: 400 1.6rem/1.5 "DM-Sans", sans-serif;
 }
 
+.font-xs-b {
+  font: 700 1.6rem/1.5 "DM-Sans", sans-serif;
+}
+
 .font-s {
   font: 400 1.8rem/1.5 "DM-Sans", sans-serif;
+}
+
+.font-s-b {
+  font: 700 1.8rem/1.3 "DM-Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 .font-m {

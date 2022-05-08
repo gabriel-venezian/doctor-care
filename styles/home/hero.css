@@ -1,6 +1,5 @@
 .hero-bg {
   background-color: var(--brand-green-light);
-  margin-top: 7.2rem;
   text-align: center;
   box-shadow: inset 0 -32rem var(--brand-green-light-02);
   padding-bottom: 10rem;

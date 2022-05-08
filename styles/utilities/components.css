@@ -9,7 +9,6 @@
   border-radius: 4rem;
   border: none;
   background-color: var(--brand-green);
-  text-transform: uppercase;
   color: var(--white);
   margin: 0 auto;
   padding: 1.6rem 3.2rem;
@@ -19,6 +18,18 @@
   cursor: pointer;
   height: 5.2rem;
   width: fit-content;
+}
+
+.btn.header {
+  border: 1px solid var(--brand-green);
+  background-color: var(--brand-green-light);
+  color: var(--brand-green);
+}
+
+.btn.header:hover {
+  border: 1px solid var(--white);
+  background-color: var(--brand-green);
+  color: var(--white);
 }
 
 .btn:hover {
@@ -34,10 +45,4 @@
 .btn.secondary:hover {
   background-color: var(--brand-green);
   color: var(--white);
-}
-
-@media (min-width: 750px) and (max-width: 1300px) {
-  .container {
-    padding: 0 8rem;
-  }
 }
