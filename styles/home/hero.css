@@ -79,7 +79,7 @@
 
   .hero h1,
   .hero p,
-  .hero button {
+  .hero a {
     grid-column: 1;
   }
 
@@ -87,7 +87,7 @@
     padding-top: 8rem;
   }
 
-  .hero button {
+  .hero a {
     margin: 0;
     margin-bottom: 8rem;
   }
