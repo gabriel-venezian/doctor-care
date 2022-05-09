@@ -22,18 +22,19 @@
   position: relative;
 }
 
-.header-menu a::after {
+.header-menu a::after,
+.header-menu a.current-section::after {
   content: "";
   display: block;
   height: 0.2rem;
   width: 0;
   background-color: var(--brand-green);
   margin-top: 0.4rem;
-  transition: 0.5s;
   position: absolute;
 }
 
-.header-menu a:hover::after {
+.header-menu a:hover::after,
+.header-menu a.current-section::after {
   width: 100%;
 }
 
